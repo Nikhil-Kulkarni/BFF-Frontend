@@ -22,3 +22,37 @@
   margin-right: 10pt;
   padding: 10pt;
 }
+
+.loadingDiv {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 16pt;
+  margin-left: 10pt;
+  margin-right: 10pt;
+  padding: 10pt;
+}
+
+.percentageDiv {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28pt;
+  margin-top: 40pt;
+  margin-left: 6pt;
+  margin-right: 6pt;
+}
+
+.submitDiv {
+  border-radius: 10pt;
+  background-color: #FF6464;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 16pt;
+  margin-left: 10pt;
+  margin-right: 10pt;
+  padding: 10pt;
+}

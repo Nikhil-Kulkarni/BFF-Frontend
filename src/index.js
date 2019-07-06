@@ -6,7 +6,6 @@ import { Provider } from 'react-redux'
 import { configure } from './config/configStore';
 import { Router, Route } from 'react-router';
 import { createBrowserHistory } from 'history';
-import { PersistGate } from 'redux-persist/integration/react';
 
 const config = configure({});
 ReactDOM.render(
