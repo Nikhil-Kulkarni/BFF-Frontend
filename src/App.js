@@ -69,8 +69,7 @@ class App extends Component {
                     </div>
                 </div>
             );
-        }
-        else if (questionIndex >= 5) {
+        } else if (questionIndex >= 5) {
             const percentage = Math.round(numberQuestionsCorrect / questions.length * 100);
             return (
                 <div>
@@ -79,15 +78,14 @@ class App extends Component {
                         {percentage}%
                     </div>
                     <form className="nameFormDiv">
-                        <input type="text" className="nameInput" onChange={this.onNameUpdate} />
+                        <input type="text" className="nameInput" onChange={this.onNameUpdate} placeholder="Your name" />
                     </form>
                     <div className="submitDiv" onClick={(e) => this.submitScore()}>
                         Submit
                     </div>
                 </div>
             );
-        }
-        else if (userId && questions) {
+        } else if (userId && questions) {
             const question = questions[questionIndex];
             return (
                 <div>
