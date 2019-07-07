@@ -49,7 +49,7 @@ class App extends Component {
         } = this.props;
         const name = this.state.name;
         const percentage = Math.round(numberQuestionsCorrect / questions.length * 100);
-        submitScore(userId, name, percentage);
+        submitScore(userId, name == null || name == "" ? "Anonymous" : name, percentage);
     }
 
     render() {
